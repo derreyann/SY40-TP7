@@ -1,0 +1,16 @@
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+output/philo
+output/prg1.c
+output/prg2
+output/philo.dSYM/Contents/Info.plist
+output/philo.dSYM/Contents/Resources/DWARF/philo
+output/prg1.c.dSYM/Contents/Info.plist
+output/prg1.c.dSYM/Contents/Resources/DWARF/prg1.c
+output/prg2.dSYM/Contents/Info.plist
+output/prg2.dSYM/Contents/Resources/DWARF/prg2
+philo.dSYM/Contents/Info.plist
+philo.dSYM/Contents/Resources/DWARF/philo
+philo
