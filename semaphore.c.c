@@ -56,7 +56,7 @@ void initSem(int nbSem, char *argv0, int *pvinit)
   int val = 0;
 
   key_t cle = ftok(argv0, '0');
-
+  sleep(1);
   /* creation du tableau de semaphores */
   if ((tabSemId = semget(cle, nbSem, IPC_CREAT | 0600)) == -1)
   {

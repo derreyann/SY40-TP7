@@ -30,8 +30,7 @@ void parentProcess()
 
 int main()
 {
-    initSem(2, "semaphore.c", NULL); // Initialize semaphores
-
+    initSem(2, "prg2.c", NULL); // Initialize semaphores
     semaphores[0].semId = 0; // Set the semaphore IDs
     semaphores[1].semId = 1;
     if (fork() == 0)

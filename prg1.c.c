@@ -123,7 +123,7 @@
 	plouaret.semId=0;
 	lannion.semId=1;
 	printf("%10s%20s%20s\n\n", "TGV", "AUTORAIL", "TAXI");
-	initSem(2, "sem", NULL);
+	initSem(2, "prg1.c", NULL);
 	TGV(0);
 	autorail(1);
 	taxi(2);
